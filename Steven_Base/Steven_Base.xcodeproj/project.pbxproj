@@ -24,6 +24,13 @@
 		8D21A6A81D584FA4001F9550 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A6A71D584FA4001F9550 /* MineViewController.m */; };
 		8D21A6AB1D585F9F001F9550 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A6AA1D585F9F001F9550 /* OtherViewController.m */; };
 		8D21A6AE1D586442001F9550 /* AnothorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A6AD1D586442001F9550 /* AnothorViewController.m */; };
+		8D21A6B51D599403001F9550 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A6B41D599403001F9550 /* UIView+ViewController.m */; };
+		8D21A6BA1D599414001F9550 /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A6B71D599414001F9550 /* UIButton+EnlargeTouchArea.m */; };
+		8D21A6BB1D599414001F9550 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A6B91D599414001F9550 /* UIViewExt.m */; };
+		8D21A6BE1D59945B001F9550 /* UITextView+placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A6BD1D59945B001F9550 /* UITextView+placeholder.m */; };
+		8D21A6C11D599489001F9550 /* UITextField+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A6C01D599489001F9550 /* UITextField+Custom.m */; };
+		8D21A6C61D5994A4001F9550 /* UIImage+stretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A6C31D5994A4001F9550 /* UIImage+stretch.m */; };
+		8D21A6C71D5994A4001F9550 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A6C51D5994A4001F9550 /* UIImage+Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +85,20 @@
 		8D21A6AA1D585F9F001F9550 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		8D21A6AC1D586442001F9550 /* AnothorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnothorViewController.h; sourceTree = "<group>"; };
 		8D21A6AD1D586442001F9550 /* AnothorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnothorViewController.m; sourceTree = "<group>"; };
+		8D21A6B31D599403001F9550 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		8D21A6B41D599403001F9550 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		8D21A6B61D599414001F9550 /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
+		8D21A6B71D599414001F9550 /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
+		8D21A6B81D599414001F9550 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		8D21A6B91D599414001F9550 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		8D21A6BC1D59945B001F9550 /* UITextView+placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+placeholder.h"; sourceTree = "<group>"; };
+		8D21A6BD1D59945B001F9550 /* UITextView+placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+placeholder.m"; sourceTree = "<group>"; };
+		8D21A6BF1D599489001F9550 /* UITextField+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Custom.h"; sourceTree = "<group>"; };
+		8D21A6C01D599489001F9550 /* UITextField+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Custom.m"; sourceTree = "<group>"; };
+		8D21A6C21D5994A4001F9550 /* UIImage+stretch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+stretch.h"; sourceTree = "<group>"; };
+		8D21A6C31D5994A4001F9550 /* UIImage+stretch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+stretch.m"; sourceTree = "<group>"; };
+		8D21A6C41D5994A4001F9550 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		8D21A6C51D5994A4001F9550 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				8D21A6B11D597FF7001F9550 /* DataService */,
+				8D21A6B21D5993B3001F9550 /* Category */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -223,6 +245,27 @@
 			children = (
 			);
 			path = DataService;
+			sourceTree = "<group>";
+		};
+		8D21A6B21D5993B3001F9550 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8D21A6C21D5994A4001F9550 /* UIImage+stretch.h */,
+				8D21A6C31D5994A4001F9550 /* UIImage+stretch.m */,
+				8D21A6C41D5994A4001F9550 /* UIImage+Utility.h */,
+				8D21A6C51D5994A4001F9550 /* UIImage+Utility.m */,
+				8D21A6BF1D599489001F9550 /* UITextField+Custom.h */,
+				8D21A6C01D599489001F9550 /* UITextField+Custom.m */,
+				8D21A6BC1D59945B001F9550 /* UITextView+placeholder.h */,
+				8D21A6BD1D59945B001F9550 /* UITextView+placeholder.m */,
+				8D21A6B61D599414001F9550 /* UIButton+EnlargeTouchArea.h */,
+				8D21A6B71D599414001F9550 /* UIButton+EnlargeTouchArea.m */,
+				8D21A6B81D599414001F9550 /* UIViewExt.h */,
+				8D21A6B91D599414001F9550 /* UIViewExt.m */,
+				8D21A6B31D599403001F9550 /* UIView+ViewController.h */,
+				8D21A6B41D599403001F9550 /* UIView+ViewController.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,17 +399,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D21A69F1D584F75001F9550 /* TwoViewController.m in Sources */,
+				8D21A6BA1D599414001F9550 /* UIButton+EnlargeTouchArea.m in Sources */,
 				8D21A6971D583DAF001F9550 /* BaseViewController.m in Sources */,
+				8D21A6B51D599403001F9550 /* UIView+ViewController.m in Sources */,
 				8D21A6AB1D585F9F001F9550 /* OtherViewController.m in Sources */,
 				8D21A6981D583DAF001F9550 /* MianTabBarController.m in Sources */,
 				8D21A6A51D584F97001F9550 /* FourViewController.m in Sources */,
+				8D21A6BB1D599414001F9550 /* UIViewExt.m in Sources */,
 				8D21A6961D583DAF001F9550 /* BaseNavViewController.m in Sources */,
 				8D21A69B1D584F4F001F9550 /* OneViewController.m in Sources */,
+				8D21A6C71D5994A4001F9550 /* UIImage+Utility.m in Sources */,
 				8D21A6611D58339E001F9550 /* AppDelegate.m in Sources */,
 				8D21A6AE1D586442001F9550 /* AnothorViewController.m in Sources */,
 				8D21A6A81D584FA4001F9550 /* MineViewController.m in Sources */,
 				8D21A65E1D58339E001F9550 /* main.m in Sources */,
+				8D21A6C11D599489001F9550 /* UITextField+Custom.m in Sources */,
+				8D21A6C61D5994A4001F9550 /* UIImage+stretch.m in Sources */,
 				8D21A6A21D584F86001F9550 /* ThreeViewController.m in Sources */,
+				8D21A6BE1D59945B001F9550 /* UITextView+placeholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +644,7 @@
 				8D21A6881D58339E001F9550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D21A6891D58339E001F9550 /* Build configuration list for PBXNativeTarget "Steven_BaseTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +653,7 @@
 				8D21A68B1D58339E001F9550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D21A68C1D58339E001F9550 /* Build configuration list for PBXNativeTarget "Steven_BaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +662,7 @@
 				8D21A68E1D58339E001F9550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
