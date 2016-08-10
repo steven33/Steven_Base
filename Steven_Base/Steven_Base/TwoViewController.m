@@ -10,28 +10,52 @@
 
 @interface TwoViewController ()
 
+
+
 @end
 
 @implementation TwoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSDictionary *dic = @{@"dicName":@"你好世界",
+                          @"dicage":@12,
+                          @"dichah":@"你好世界",
+                          @"dicsde":@"你好世界",};
+    NSArray *arr = @[@"123",@"23",@"13",@"122",@"13323"];
+    
+    NSDictionary *modelDic =@{@"dic":dic,
+                              @"age":@12,
+                              @"age":@12,
+                              @"age2":@12.233,
+                              @"name":@"你好dfdggfgf",
+                              @"arr":arr};
+    
+    
+    NSMutableString *string = [NSMutableString stringWithString:@"\n"];
+    
+    for (NSString *key in modelDic.allKeys) {
+        id value = modelDic[key];
+        if ([value isKindOfClass:[NSString class]]) {
+            [string appendString:[NSString stringWithFormat:@"@property (nonatomic,copy)NSString *%@;\n",key]];
+            
+        }
+        else if ([value isKindOfClass:[NSDictionary class]]){
+            [string appendString:[NSString stringWithFormat:@"@property (nonatomic,strong)NSDictionary *%@;\n",key]];
+        }
+        else if ([value isKindOfClass:[NSArray class]]){
+            [string appendString:[NSString stringWithFormat:@"@property(nonatomic,strong)NSArray *%@;\n",key]];
+        }
+        else if ([value isKindOfClass:[NSNumber class]]){
+            [string appendString:[NSString stringWithFormat:@"@property (nonatomic,assign)NSNumber *%@;\n",key]];
+        }
+    
+    }
+    NSLog(string);
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
