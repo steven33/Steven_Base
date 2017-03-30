@@ -19,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //xieyigezhushiyonglai cehejdcjdv
+    
     NSDictionary *dic = @{@"dicName":@"你好世界",
                           @"dicage":@12,
                           @"dichah":@"你好世界",
