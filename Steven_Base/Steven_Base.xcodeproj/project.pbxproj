@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61006AD81E8D1AE600A7B637 /* IKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 61006AD71E8D1AE600A7B637 /* IKButton.m */; };
 		8D21A65E1D58339E001F9550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A65D1D58339E001F9550 /* main.m */; };
 		8D21A6611D58339E001F9550 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A6601D58339E001F9550 /* AppDelegate.m */; };
 		8D21A6671D58339E001F9550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D21A6651D58339E001F9550 /* Main.storyboard */; };
@@ -51,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61006AD61E8D1AE600A7B637 /* IKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKButton.h; sourceTree = "<group>"; };
+		61006AD71E8D1AE600A7B637 /* IKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKButton.m; sourceTree = "<group>"; };
 		8D21A6591D58339E001F9550 /* Steven_Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Steven_Base.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D21A65D1D58339E001F9550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D21A65F1D58339E001F9550 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -264,6 +267,8 @@
 				8D21A6B91D599414001F9550 /* UIViewExt.m */,
 				8D21A6B31D599403001F9550 /* UIView+ViewController.h */,
 				8D21A6B41D599403001F9550 /* UIView+ViewController.m */,
+				61006AD61E8D1AE600A7B637 /* IKButton.h */,
+				61006AD71E8D1AE600A7B637 /* IKButton.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -411,6 +416,7 @@
 				8D21A6C71D5994A4001F9550 /* UIImage+Utility.m in Sources */,
 				8D21A6611D58339E001F9550 /* AppDelegate.m in Sources */,
 				8D21A6AE1D586442001F9550 /* AnothorViewController.m in Sources */,
+				61006AD81E8D1AE600A7B637 /* IKButton.m in Sources */,
 				8D21A6A81D584FA4001F9550 /* MineViewController.m in Sources */,
 				8D21A65E1D58339E001F9550 /* main.m in Sources */,
 				8D21A6C11D599489001F9550 /* UITextField+Custom.m in Sources */,
